@@ -1,0 +1,56 @@
+ERROR 2023/05/07 16:59:57 util.go:98: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2023/05/07 17:00:15 util.go:98: Error 1054 (42S22): Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2023/05/07 17:00:34 util.go:98: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2023/05/07 17:04:40 util.go:98: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, created_at' at line 1 Cannot create user
+ERROR 2023/05/07 17:12:33 util.go:98: Error 1054 (42S22): Unknown column '$1' in 'field list' Cannot create user
+ERROR 2023/05/07 17:18:48 util.go:98: Error 1062 (23000): Duplicate entry '1049877034@qq.com' for key 'users.email' Cannot create user
+ERROR 2023/05/07 17:19:37 util.go:98: Error 1062 (23000): Duplicate entry '1049877034@qq.com' for key 'users.email' Cannot create user
+ERROR 2023/05/07 17:20:09 util.go:98: Error 1062 (23000): Duplicate entry '1049877034@qq.com' for key 'users.email' Cannot create user
+ERROR 2023/05/07 17:21:18 util.go:98: Error 1054 (42S22): Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2023/05/07 17:21:23 util.go:98: Error 1054 (42S22): Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2023/05/07 17:21:31 util.go:98: Error 1054 (42S22): Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2023/05/07 17:24:01 util.go:98: Error 1054 (42S22): Unknown column '$1' in 'where clause' Cannot find user
+ERROR 2023/05/07 17:24:58 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 17:24:58 util.go:98: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, email, user_id, created_at' at line 1 Cannot create session
+ERROR 2023/05/07 17:25:11 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 17:25:11 util.go:98: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, email, user_id, created_at' at line 1 Cannot create session
+ERROR 2023/05/07 17:25:40 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 17:25:40 util.go:98: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, email, user_id, created_at' at line 1 Cannot create session
+ERROR 2023/05/07 17:29:42 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 17:29:42 util.go:98: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, email, user_id, created_at' at line 1 Cannot create session
+ERROR 2023/05/07 17:30:08 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 17:30:08 util.go:98: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, email, user_id, created_at' at line 1 Cannot create session
+ERROR 2023/05/07 17:31:36 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 17:31:36 util.go:98: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, email, user_id, created_at' at line 1 Cannot create session
+ERROR 2023/05/07 17:36:38 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 17:36:38 util.go:98: Error 1054 (42S22): Unknown column 'emial' in 'field list' Cannot create session
+ERROR 2023/05/07 17:42:05 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 17:42:05 util.go:98: Error 1054 (42S22): Unknown column 'emial' in 'field list' Cannot create session
+ERROR 2023/05/07 17:49:38 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 17:49:38 util.go:98: Error 1054 (42S22): Unknown column 'emial' in 'field list' Cannot create session
+ERROR 2023/05/07 17:52:48 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 17:52:48 util.go:98: Error 1054 (42S22): Unknown column 'emial' in 'field list' Cannot create session
+ERROR 2023/05/07 17:54:57 util.go:98: Error 1364 (HY000): Field 'id' doesn't have a default value Cannot create user
+ERROR 2023/05/07 17:56:50 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 17:56:50 util.go:98: Error 1054 (42S22): Unknown column 'emial' in 'field list' Cannot create session
+ERROR 2023/05/07 17:57:51 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 17:57:51 util.go:98: Error 1054 (42S22): Unknown column 'emial' in 'field list' Cannot create session
+ERROR 2023/05/07 17:58:05 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 17:58:05 util.go:98: Error 1054 (42S22): Unknown column 'emial' in 'field list' Cannot create session
+ERROR 2023/05/07 17:58:26 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 17:58:26 util.go:98: Error 1054 (42S22): Unknown column 'create_at' in 'field list' Cannot create session
+ERROR 2023/05/07 17:58:44 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 17:58:44 util.go:98: Error 1136 (21S01): Column count doesn't match value count at row 1 Cannot create session
+ERROR 2023/05/07 17:59:22 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 17:59:22 util.go:98: sql: no rows in result set Cannot create session
+ERROR 2023/05/07 18:04:12 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 18:04:12 util.go:98: sql: no rows in result set Cannot create session
+ERROR 2023/05/07 18:06:28 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 18:06:28 util.go:98: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, email, user_id, created_at' at line 1 Cannot create session
+ERROR 2023/05/07 18:09:18 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 18:09:18 util.go:98: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning *' at line 1 Cannot create session
+ERROR 2023/05/07 18:09:32 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 18:09:32 util.go:98: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'return *' at line 1 Cannot create session
+ERROR 2023/05/07 20:05:46 util.go:98: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot find user
+ERROR 2023/05/07 20:05:46 util.go:98: sql: Scan error on column index 4, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time Cannot create session
+ERROR 2023/05/07 20:48:38 util.go:98: Error 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'returning id, uuid, topic, user_id, created_at' at line 1 Cannot create thread
