@@ -12,12 +12,14 @@ require (
 	golang.org/x/sys v0.3.0 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gorm.io/driver/mysql v1.1.3
-	gorm.io/gorm v1.22.2
+	gorm.io/gorm v1.23.0
 )
 
 require (
 	github.com/golang/protobuf v1.5.2
+	github.com/wxnacy/wgo v1.0.4
 	google.golang.org/protobuf v1.28.1
+	gorm.io/plugin/soft_delete v1.2.1
 )
 
 require (
@@ -36,7 +38,7 @@ require (
 	github.com/jcmturner/gokrb5/v8 v8.4.2 // indirect
 	github.com/jcmturner/rpc/v2 v2.0.3 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
-	github.com/jinzhu/now v1.1.2 // indirect
+	github.com/jinzhu/now v1.1.4 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
